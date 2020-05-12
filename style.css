@@ -1,0 +1,32 @@
+html{
+  background-color:ghostwhite;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+
+}
+table, th {
+  border: 1px solid black;
+  background-color:white;
+}
+td {
+  background-color:WhiteSmoke;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid1{
+  grid-row: 1;
+  grid-column: 1 / 3;
+  max-width: 200%;
+  width:auto;
+  height:auto;
+
+}
+.grid2{
+  grid-row: 1;
+  grid-column: 3;
+}
+canvas{
+  max-width:100%;
+}

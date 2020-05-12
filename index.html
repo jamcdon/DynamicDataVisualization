@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic JSON Tables</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./json.png">
+
+</head>
+
+<header>
+    <h1>Dynamic JSON Data Manipulation</h1>
+</header>
+    
+<body>
+
+<div class = "gridcontainer">
+  
+  <div class = "grid1">
+<canvas id="myChart"></canvas>
+  </div>
+
+<div id="app" class = "grid2">
+  <table>
+    <tr>
+      <th v-for="name in Object.keys(persons[0])">{{name}}</th>
+    </tr>
+  <tbody>
+      <tr v-for="person in persons">
+        <td>{{person.name}}</td>
+        <td>{{person.age}}</td>
+        <td>{{person.degree}}</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
