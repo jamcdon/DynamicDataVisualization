@@ -6,23 +6,23 @@ var tableData = [
     degree:'CIT'
   },
   {
-    name:'Mark',
-    age:51,
+    name:'Albert',
+    age:31,
     degree:'Aviation Technolgy'
   },
   {
-    name:'Jennifer',
-    age:50,
+    name:'Tonya',
+    age:25,
     degree:'Marketing'
   },
   {
-    name:'Mackenzie',
-    age:23,
+    name:'Daniel',
+    age:19,
     degree:'Psychology'
   },
   {
-    name:'Dottie',
-    age:81,
+    name:'Jordan',
+    age:41,
     degree:'Nursing'
   },
   {
